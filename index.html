@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual IPL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="dice.png">
+</head>
+<body>
+    <div class="main">
+       
+        <h1>Let's Play !</h1>
+        
+            <div class="b-dice">
+                <p class="Player1">Player 1</p>
+                <img class="b1" src="black/b-dice6.png" alt="dice6">
+                <img class="b2"src="black/b-dice6.png" alt="dice6">       
+            </div>
+         
+         <div class="w-dice">
+            <p class="Player2">Player 2</p>
+            <img class="w1"src="white/w-dice6.png" alt="">
+            <img class="w2"src="white/w-dice6.png" alt="">
+         </div>
+        </div>
+        <br>
+        <div class="btn">
+            <div class="play" id="dice-btn">
+                <button class="PlayButton" onclick="dicegame()">PLAY</button>
+            </div>
+            <div class="name">
+                <button class="editName" onclick="editNames()">ENTER NAME</button>
+            </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    background-color: #F0FFFF;
+}
+.main{
+    text-align: center;
+}
+
+h1{
+    font-family: "Indie Flower", cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.PlayButton {
+    background-color: #8FBC8F;
+    border-radius: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-width: 5px;
+    border-color:#8FBC8F ;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.PlayButton:hover {
+    background-color:#808080 ;  
+}
+.editName {
+    background-color: #8FBC8F;
+    border-radius: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-width: 5px;
+    border-color:#8FBC8F ;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.editName:hover {
+    background-color:#808080 ;  
+}
+
+.btn {
+   
+    text-align: center;
+}
+.play {
+    padding-bottom: 20px;
+    margin-top: 25%;
+    
+}
+.b1{
+    padding-left: 60px;
+}
+.w1 {
+    padding-left: 60px;
+}
+
+.w-dice {
+    float: right;
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.b-dice {
+    float: left;
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.score {
+    text-align: right;
+    padding-top: 10px;
+    padding-top: 10px;
+}
