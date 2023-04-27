@@ -47,10 +47,10 @@ var image4 = document.querySelectorAll("img")[3];
 image4.setAttribute("src", randomDiceImage4);
 
 if (randomNumber1 + randomNumber2 > randomNumber3 + randomNumber4 ) {
-    document.querySelector("h1").innerHTML = ("🏆 " + player1 + " Wins ! 🏆");
+    document.querySelector("h1").innerHTML = ("🏆 " + player1 + " wins by " + (randomNumber1+randomNumber2) + " points 🏆" );
 }
 else if(randomNumber3 + randomNumber4 > randomNumber1 + randomNumber2){
-    document.querySelector("h1").innerHTML = ("🏆 " + player2 + " Wins ! 🏆");
+    document.querySelector("h1").innerHTML =  ("🏆 " + player2 + "  wins by " + (randomNumber3+randomNumber4) + " points 🏆" );
 }
 else {
     result.innerHTML = "Draw !"
